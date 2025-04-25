@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: transparent;
+    border: unset;
+    cursor: pointer;
+    margin: 0;
+    transition: 0.5s;
+}
+/* lista */
+.c-lista{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.c-lista-pokemon{
+    background-color: rgb(99, 99, 117);
+    
+    padding: 10px;
+    text-align: center;
+}
+
+/* navegacion */
+.c-nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgb(65, 57, 57);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 15px;
+    gap: 10px;
+}
+
+.c-nav-item{
+    background-color: rgb(203, 203, 216);
+
+}
+.c-nav-item:hover{
+    color: rgb(4, 8, 196);
+}
